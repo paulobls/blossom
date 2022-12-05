@@ -1,4 +1,4 @@
-# Desenvolvimento de Projetos de Engenharia
+#  Desenvolvimento de Projetos de Engenharia
 
 ## 1. Objetivo
 
@@ -41,7 +41,7 @@ Site | Estrutura de Pastas de Cada Projeto/Process
 - Analista de Projetos
 - Todos os colaboradores
 
-### 3.1 Diretor(a) de Operações
+### 3.1. Diretor(a) de Operações
 - Exercer a gestão das operações e das áreas funcionais, alinhando-a aos valores corporativos e políticas internas
 - Executar os planos de negócios da empresa seguindo o modelo traçado e aprovado no planejamento estratégico, respondendo aos propósitos e às expectativas dos acionistas
 - Trabalhar para o atingimento de metas de resultados operacionais
@@ -51,3 +51,11 @@ Site | Estrutura de Pastas de Cada Projeto/Process
 - Garantir os recursos para execução dos projetos
 - Colaborar com o CEO nas suas atividades e tomada de decisões
 - Propor mudanças na estrutura organizacional e nos processos de gestão, exigidas para implantação das estratégias
+
+## 4. Considerações Gerais
+
+### 4.1. Estrutura Típica de Projeto
+
+[![](https://mermaid.ink/img/pako:eNp1kt9rwjAQx_-VkMHoQGGMjWnfbH6oZYJD31ofMnNqJE26mD6I-L8vapTiMOGO5D5f7o7jDnhpJeAUr52oN2ielQaFM0iG4MB4QBLQ1NktePtyQVlCrHUSjJDW_cfkHlO1W6paKyOigiYlzu0P-gIhwaFEtgQ4alhSlJj9Nqq-5b8TLqKSF1MtDGxFFdq1i0twWDCzBrMRTonQwFp5oSMaFdQuEbHGO3uNjYvvRmglQz8xkhczNpvMwy_OA3W7XZShZ8SDDYONgo2D5XEqZwE5e3r27AKuGXZ-ryHkWSmt0yfyQQas3yZZJJzzPnlvExIJJYySXpvQSNgr_-SDNmHXOpz2KGkT_rDO8CEZPSTjGyGUvrVJfkdOF3dwBa4SSoaFO5zUJfYbqKDEaXhKWIlG-xKX5hikovF2tjdLnHrXQAc3tRQeqBJhVSucroTehShI5a2bXJb4vMvHP2Vq2ms?type=png)](https://mermaid.live/edit#pako:eNp1kt9rwjAQx_-VkMHoQGGMjWnfbH6oZYJD31ofMnNqJE26mD6I-L8vapTiMOGO5D5f7o7jDnhpJeAUr52oN2ielQaFM0iG4MB4QBLQ1NktePtyQVlCrHUSjJDW_cfkHlO1W6paKyOigiYlzu0P-gIhwaFEtgQ4alhSlJj9Nqq-5b8TLqKSF1MtDGxFFdq1i0twWDCzBrMRTonQwFp5oSMaFdQuEbHGO3uNjYvvRmglQz8xkhczNpvMwy_OA3W7XZShZ8SDDYONgo2D5XEqZwE5e3r27AKuGXZ-ryHkWSmt0yfyQQas3yZZJJzzPnlvExIJJYySXpvQSNgr_-SDNmHXOpz2KGkT_rDO8CEZPSTjGyGUvrVJfkdOF3dwBa4SSoaFO5zUJfYbqKDEaXhKWIlG-xKX5hikovF2tjdLnHrXQAc3tRQeqBJhVSucroTehShI5a2bXJb4vMvHP2Vq2ms)
+
+*Dependendo do tamanho do projeto, algumas funções podem não ser necessárias.*
