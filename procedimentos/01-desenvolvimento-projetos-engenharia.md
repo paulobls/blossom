@@ -336,13 +336,17 @@ Acesse em: Blossom Digital → Service Desk
 ### 5.1. Procedimento de Trabalho Blossom
 A Blossom Consult segue os processos determinados abaixo para gestão e controle dos Projetos:
 
-#### 5.1.1. Processo para Contratos Novos
+#### 5.1.1. Contratos Novos
+![Proposta Comercial](https://user-images.githubusercontent.com/114407461/205786245-124500f8-7675-402e-a54b-0ba74ddb6c9f.png)
 
-#### 5.1.2. Processo para Orçamento em Contratos Guarda Chuva
+#### 5.1.2. Orçamento em Contratos Guarda Chuva
+![Proposta de OS](https://user-images.githubusercontent.com/114407461/205786469-f3bc31ee-ff28-4243-8299-4637e0baad18.png)
 
-#### 5.1.3. Processo de Preparação/Mobilização do Projeto
+#### 5.1.3. Preparação/Mobilização do Projeto
+![Preparação](https://user-images.githubusercontent.com/114407461/205786516-6884ee39-eedf-432c-b9c7-9cbc9bccf1f2.png)
 
-#### 5.1.4. Processo de Execução do Projeto
+#### 5.1.4. Execução do Projeto
+![Execução](https://user-images.githubusercontent.com/114407461/205786596-36974dff-952f-4441-89da-442c851c4936.png)
 
 ### 5.2. Identificação e Análise Crítica dos Dados de Entrada
 O Coordenador do Projeto analisa os requisitos de entrada do projeto. São considerados requisitos de entrada de projeto:
