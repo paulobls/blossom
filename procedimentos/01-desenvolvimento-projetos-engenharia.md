@@ -3,6 +3,7 @@
 Estabelecer as diretrizes, as atividades e as responsabilidades existentes no planejamento e desenvolvimento da nossa Engenharia
 
 # 2. Definições
+> Descrever brevemente essa seção
 
 Termo | Definição
 ------|----------
@@ -26,6 +27,8 @@ Site | Estrutura de Pastas de Cada Projeto/Processo
 TI | Tecnologia da Informação
 
 # 3. Responsabilidades
+> Descrever brevemente essa seção
+
 - Diretor(a) de Operações
 - Gerente de Projeto
 - Gerente de Engenharia
@@ -71,7 +74,7 @@ e mudanças de escopo
 - Garantir que os requisitos de HSE, tanto legais quanto dos clientes sejam atendidos
 - Estabelecer processos de comunicação eficazes para possibilitar que as informações do projeto sejam reunidas, documentadas e compartilhadas para todos os envolvidos do projeto
 - Responsável pela saúde financeira e o equilíbrio econômico do projeto, conforme contrato ou SE/OS definida, reportando internamente as tendências e resultados alcançados
-- Responsável final pelo pelos planos de trabalho dentro dos contratos guarda chuva
+- Responsável final pelo pelos planos de trabalho dentro dos contratos Guarda Chuva
 - Negociar acertos comerciais e contratuais com os clientes, responsável por todo processo de medição, faturamento e pagamento dos serviços
 - Avaliar, juntamente com a liderança de Engenharia, a adequação das demandas e distribuição adequada dos recursos
 - Enviar ao final de cada contrato, o atestado de capacidade técnica já aprovado pelo cliente, para o setor Comercial
@@ -110,8 +113,8 @@ Analisar criticamente as consultas de clientes e as propostas a serem apresentad
 - Atuar em apoio ao Gerente do Projeto pelo resultado econômico financeiro dos contratos
 
 ## 3.5. Atribuições do Coordenador de Projeto
-- Promover o entendimento do escopo perante o cliente para efeito de elaboração dos Planos de Trabalho dentro dos contratos guarda chuva
-- Transmitir/alinhar/consolidar o entendimento do escopo de forma multidisciplinar para que os Job Leaders possam compor o Plano de Trabalho dentro dos contratos guarda chuva
+- Promover o entendimento do escopo perante o cliente para efeito de elaboração dos Planos de Trabalho dentro dos contratos Guarda Chuva
+- Transmitir/alinhar/consolidar o entendimento do escopo de forma multidisciplinar para que os Job Leaders possam compor o Plano de Trabalho dentro dos contratos Guarda Chuva
 - Realizar a integração técnica entre as diversas especialidades envolvidas no projeto, permitindo o alinhamento quanto aos objetivos e entregas previstas
 - Buscar a performance técnica do contrato/SE/OS, mantendo vigilância sob o apontamento de horas, a distribuição das equipes e o equilíbrio entre as disciplinas
 - Agendar as reuniões de Kick Off externo, Kick Off Interno e aprovar a Lista de documentos (nesta sequência) para que seja iniciada as demais atividades do projeto
@@ -133,7 +136,7 @@ O Coordenador de Escritório poderá assumir atribuições do Coordenador de Pro
 - Assegurar o fluxo interno de informação no âmbito do escritório
 
 ## 3.7. Atribuições do Job Leader
-- Responsável pela elaboração dos planos de trabalho dentro dos contratos guarda chuva no âmbito da sua disciplina, preparando a lista de documentos, descrição de escopo, premissas, fora de escopo e estimativa de horas
+- Responsável pela elaboração dos planos de trabalho dentro dos contratos Guarda Chuva no âmbito da sua disciplina, preparando a lista de documentos, descrição de escopo, premissas, fora de escopo e estimativa de horas
 - Conhecer o escopo dos projetos, através da leitura das propostas técnicas e da
 documentação disponibilizada pelo cliente
 - Elaborar a LD do projeto e a relação dos Modelos 3D/BIM (caso o projeto seja feito em plataforma 3D/BIM)
@@ -217,7 +220,7 @@ e documentação do cliente, bem como a participação da reunião de início do
 
 ## 3.14. Atribuições do Doc Control
 - Conhecer as normas, padrões e procedimentos da Blossom Consult e dos clientes quanto a emissão de documentos
-- Realizar o registro da LD no Sistema de Gestão de Documentos. Para os contratos do tipo guarda chuva a LD o carregamento será feito pela equipe de gestão de projetos
+- Realizar o registro da LD no Sistema de Gestão de Documentos. Para os contratos do tipo Guarda Chuva a LD o carregamento será feito pela equipe de gestão de projetos
 - Assegurar que número do cliente, revisão e títulos no ELFA estejam de acordo com o padrão do projeto
 - Elaborar os PP e ministrar o treinamento aos envolvidos
 - Solicitar ao cliente a aprovação da LD e os números próprios para emissão de documentos
@@ -262,6 +265,7 @@ Consult
 - Executar suas atividades obedecendo aos procedimentos de segurança, proteção ao meio ambiente e Qualidade recomendados pela empresa e contratante
 
 # 4. Considerações Gerais
+> Descrever brevemente essa seção
 
 ## 4.1. Estrutura Típica de Projeto
 
@@ -269,8 +273,6 @@ Consult
 
 - *Cada disciplina terá um Job Leader, responsável por uma Equipe de Projeto*
 - *Dependendo do tamanho do projeto, algumas funções podem não ser necessárias*
-
-
 
 ## 4.2. Share Point
 O Share Point é um portal onde são armazenados os documentos na fase de elaboração, padrões de Engenharia e documentos de referência do projeto, ele possibilita que as equipes abram, compartilhem e acessem arquivos e permite que os membros da equipe trabalhem no mesmo documento, juntos e em tempo real.
@@ -331,6 +333,7 @@ Incidentes (interrupção não panejada de um serviço, ou redução na qualidad
 Acesse em: Blossom Digital → Service Desk
 
 # 5. Metodologia
+> Descrever brevemente essa seção
 
 ## 5.1. Procedimento de Trabalho Blossom
 A Blossom Consult segue os processos determinados abaixo para gestão e controle dos Projetos:
@@ -414,7 +417,6 @@ Para projetos desenvolvidos em plataformas BIM serão seguidos os processos e di
 
 ### 5.10.1. Levantamento de Campo
 Quando necessário, deve ser feito por profissionais qualificados, após a definição de datas, condições de levantamento, prazos, atividades a serem executadas e profissional de interface do cliente.
-
 
 Após o levantamento de campo, os profissionais envolvidos devem elaborar o Relatório de Levantamento de Campo com tudo o que foi acordado e com os contatos (definições do cliente).
 
