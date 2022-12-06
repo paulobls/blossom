@@ -274,10 +274,10 @@ Consult
 - *Cada disciplina terá um Job Leader, responsável por uma Equipe de Projeto*
 - *Dependendo do tamanho do projeto, algumas funções podem não ser necessárias*
 
-## 4.2. Share Point
-O Share Point é um portal onde são armazenados os documentos na fase de elaboração, padrões de Engenharia e documentos de referência do projeto, ele possibilita que as equipes abram, compartilhem e acessem arquivos e permite que os membros da equipe trabalhem no mesmo documento, juntos e em tempo real.
+## 4.2. SharePoint
+O SharePoint é um portal onde são armazenados os documentos na fase de elaboração, padrões de Engenharia e documentos de referência do projeto, ele possibilita que as equipes abram, compartilhem e acessem arquivos e permite que os membros da equipe trabalhem no mesmo documento, juntos e em tempo real.
 
-Qualquer colaborador que tenha acesso a estes documentos (email, portal do cliente, hd externo etc.), deverá encaminhá-los ao Doc Control, que é a área responsável pelo cadastro no Share Point, no site de cada projeto.
+Qualquer colaborador que tenha acesso a estes documentos (email, portal do cliente, hd externo etc.), deverá encaminhá-los ao Doc Control, que é a área responsável pelo cadastro no SharePoint, no site de cada projeto.
 Pode ser utilizado como um local seguro para armazenar, organizar, compartilhar e acessar informações de qualquer dispositivo e, para isso, só é preciso um navegador Web.
 
 O acesso às pastas é concedido através de permissões. O TI verifica as contratações e libera o acesso, conforme permissionamento. Com o acesso liberado será possível sincronizar através do Blossom Digital o(s) site(s) necessário(s) para o desenvolvimento dos trabalhos.
