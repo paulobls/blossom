@@ -98,8 +98,7 @@ e mudanças de escopo
 - Assegurar o fluxo interno de informação no âmbito da disciplina
 - Supervisionar a equipe e assegurar o atendimento dos procedimentos da qualidade, índices de produtividade e redução do retrabalho
 - Atuar como responsável pelas atividades no âmbito de todos os projetos de Engenharia aplicáveis, em conformidade com as diretrizes da empresa
-- Estabelecer as diretrizes técnicas e padrões para aplicação nos projetos desenvolvidos, no que diz respeito às metodologias, normas, instruções, softwares
-e ferramentas em geral
+- Estabelecer as diretrizes técnicas e padrões para aplicação nos projetos desenvolvidos, no que diz respeito às metodologias, normas, instruções, softwares e ferramentas em geral
 - Orientar tecnicamente o trabalho da equipe
 - Compartilhar as lições aprendidas já registradas de forma geral dentro da estrutura da disciplina de sua responsabilidade
 - Promover o registro de novas lições aprendidas no âmbito da disciplina
@@ -266,36 +265,45 @@ Consult
 ## 4. Considerações Gerais
 
 ### 4.1. Estrutura Típica de Projeto
-Dependendo do tamanho do projeto, algumas funções podem não ser necessárias.
 
 [![Estrutura Típica de Projeto](https://mermaid.ink/img/pako:eNp1kt9rwjAQx_-VkMHoQGGMjWnfbH6oZYJD31ofMnNqJE26mD6I-L8vapTiMOGO5D5f7o7jDnhpJeAUr52oN2ielQaFM0iG4MB4QBLQ1NktePtyQVlCrHUSjJDW_cfkHlO1W6paKyOigiYlzu0P-gIhwaFEtgQ4alhSlJj9Nqq-5b8TLqKSF1MtDGxFFdq1i0twWDCzBrMRTonQwFp5oSMaFdQuEbHGO3uNjYvvRmglQz8xkhczNpvMwy_OA3W7XZShZ8SDDYONgo2D5XEqZwE5e3r27AKuGXZ-ryHkWSmt0yfyQQas3yZZJJzzPnlvExIJJYySXpvQSNgr_-SDNmHXOpz2KGkT_rDO8CEZPSTjGyGUvrVJfkdOF3dwBa4SSoaFO5zUJfYbqKDEaXhKWIlG-xKX5hikovF2tjdLnHrXQAc3tRQeqBJhVSucroTehShI5a2bXJb4vMvHP2Vq2ms?type=png)](https://mermaid.live/edit#pako:eNp1kt9rwjAQx_-VkMHoQGGMjWnfbH6oZYJD31ofMnNqJE26mD6I-L8vapTiMOGO5D5f7o7jDnhpJeAUr52oN2ielQaFM0iG4MB4QBLQ1NktePtyQVlCrHUSjJDW_cfkHlO1W6paKyOigiYlzu0P-gIhwaFEtgQ4alhSlJj9Nqq-5b8TLqKSF1MtDGxFFdq1i0twWDCzBrMRTonQwFp5oSMaFdQuEbHGO3uNjYvvRmglQz8xkhczNpvMwy_OA3W7XZShZ8SDDYONgo2D5XEqZwE5e3r27AKuGXZ-ryHkWSmt0yfyQQas3yZZJJzzPnlvExIJJYySXpvQSNgr_-SDNmHXOpz2KGkT_rDO8CEZPSTjGyGUvrVJfkdOF3dwBa4SSoaFO5zUJfYbqKDEaXhKWIlG-xKX5hikovF2tjdLnHrXQAc3tRQeqBJhVSucroTehShI5a2bXJb4vMvHP2Vq2ms)
 
+- *Cada disciplina terá um Job Leader, responsável por uma Equipe de Projeto*
+- *Dependendo do tamanho do projeto, algumas funções podem não ser necessárias*
+
+
+
 ### 4.2. Share Point
 O Share Point é um portal onde são armazenados os documentos na fase de elaboração, padrões de Engenharia e documentos de referência do projeto, ele possibilita que as equipes abram, compartilhem e acessem arquivos e permite que os membros da equipe trabalhem no mesmo documento, juntos e em tempo real.
+
 Qualquer colaborador que tenha acesso a estes documentos (email, portal do cliente, hd externo etc.), deverá encaminhá-los ao Doc Control, que é a área responsável pelo cadastro no Share Point, no site de cada projeto.
 Pode ser utilizado como um local seguro para armazenar, organizar, compartilhar e acessar informações de qualquer dispositivo e, para isso, só é preciso um navegador Web.
+
 O acesso às pastas é concedido através de permissões. O TI verifica as contratações e libera o acesso, conforme permissionamento. Com o acesso liberado será possível sincronizar através do Blossom Digital o(s) site(s) necessário(s) para o desenvolvimento dos trabalhos.
+
 Para realizar a sincronização, basta entrar no Site Blossom Digital, nele se encontra todos os sites disponíveis. Após clicar no site, irá abrir uma janela, no canto superior esquerdo da página, depois de “Página Inicial”, você clicará na segunda aba, desta forma, você encontrará a opção de “Sincronizar”. O usuário deverá seguir as instruções indicadas na tela e ao final da sincronização, o OneDrive avisará ao usuário que o processo foi concluído.
 Dos sites disponíveis:
 - SGI (Sistema de Gestão Integrado): Todos os colaboradores podem sincronizar
 - Execução: Todos os colaboradores alocados na Engenharia podem sincronizar
 - Projetos: É possível sincronizar todas as pastas de projetos. Entretanto, é recomendado que sejam sincronizadas apenas as pastas dos projetos em que estiver atuando, a fim de não sobrecarregar o OneDrive.
 Os demais projetos podem ser visualizados de forma online através do Blossom Digital ou do BIM Docs.
+
 A estrutura de sites é definida em:
 
 #### 4.2.1. Projeto Guarda Chuva
 Site referente a contratos de com várias SE’s ou OS’s. Nele se encontram pastas predefinidas:
+- GPR - Armazenamento das informações gerais do gerenciamento do contrato.
+- SGI - Armazenamento de padrões, formatos e normas do cliente.
+- SE/OS - Definidas por disciplinas e destinadas à elaboração da documentação de Engenharia.
 
-GPR - Pasta destinada ao armazenamento das informações gerais do gerenciamento do contrato.
-SGI - Pasta destinada ao armazenamento de padrões, formatos e normas do cliente.
-SE/OS - Pastas definidas por disciplinas destinadas a elaboração da documentação de Engenharia.
-Dentro da estrutura da SE/OS, encontram-se pastas destinadas ao armazenamento de informações relativas à gestão da SE/OS, como exemplo: Cronograma, Plano de Trabalho, Ata de Reunião, Lista de Pendência, Lista de Documentos.
+  > Dentro da estrutura da SE/OS, encontram-se pastas destinadas ao armazenamento de informações relativas à gestão da SE/OS, como exemplo: Cronograma, Plano de Trabalho, Ata de Reunião, Lista de Pendência, Lista de Documentos.
+
 As pastas localizadas dentro de cada pasta SE/OS são estruturadas para armazenar as informações referentes apenas à ordem de serviço específica:
-ENG - Pasta destinada ao desenvolvimento do projeto, dividida por disciplinas, os documentos em elaboração devem ser obrigatoriamente salvos nesta pasta até a emissão no ELFA. Após a emissão no ELFA o arquivo deverá ser deletado.
-GPR - Pasta destinada ao armazenamento para as informações do gerenciamento da SE/OS.
-DOC - Pasta destinada ao armazenamento dos documentos de referência e documentos
+- ENG - Pasta destinada ao desenvolvimento do projeto, dividida por disciplinas, os documentos em elaboração devem ser obrigatoriamente salvos nesta pasta até a emissão no ELFA. Após a emissão no ELFA o arquivo deverá ser deletado.
+- GPR - Pasta destinada ao armazenamento para as informações do gerenciamento da SE/OS.
+- DOC - Pasta destinada ao armazenamento dos documentos de referência e documentos
 de fornecedor.
-COM - Pasta destinada ao armazenamento das informações da Gestão Comercial do contrato ou OS/SE.
+- COM - Pasta destinada ao armazenamento das informações da Gestão Comercial do contrato ou OS/SE.
 
 #### 4.2.2. Projeto Único
 Na sua estrutura encontra-se a pasta ENG, subdividida nas pastas das disciplinas, onde deve ser desenvolvido o projeto, bem como as pastas GPR e SGI. Em todas as pastas, os arquivos armazenados são referentes ao projeto como um todo.
@@ -342,17 +350,20 @@ O Coordenador do Projeto analisa os requisitos de entrada do projeto. São consi
 - O memorial descritivo, desenhos e especificações apresentados e referenciados pelo cliente
 - Os códigos e normas técnicas que serão adotados, observando-se aqueles referenciados pelo cliente; caso o cliente não os referencie, os Gerentes de Projetos, Coordenadores de Projetos e os Job Leaders devem defini-los
 - Os requisitos estatutários e regulamentares que deverão ser observados durante o projeto, tais como:
-1. Normas e regulamentos de entidades regulamentadoras das atividades afins ao objeto do projeto
-2. Legislação municipal, estadual ou federal relativa ao produto do projeto, à segurança, ao meio ambiente ou a saúde
-3. Normas e regulamentos das empresas contratantes, concessionárias, câmaras setoriais, entidades de classe e outras afins
-4. Definições de forma de apresentação dos projetos, quando não forem especificadas pelo cliente, devem ser definidos os padrões Blossom Consult que serão adotados
-5. Os resultados desta análise crítica devem ser registrados nas atas de reunião de abertura ou primeira análise crítica de projeto
-6. Dados de entrada geralmente são formalizados em documentos de referência que devem ser requeridos dos clientes como base inicial para o desenvolvimento do projeto
+  1. Normas e regulamentos de entidades regulamentadoras das atividades afins ao objeto do projeto
+  2. Legislação municipal, estadual ou federal relativa ao produto do projeto, à segurança, ao meio ambiente ou a saúde
+  3. Normas e regulamentos das empresas contratantes, concessionárias, câmaras setoriais, entidades de classe e outras afins
+  4. Definições de forma de apresentação dos projetos, quando não forem especificadas pelo cliente, devem ser definidos os padrões Blossom Consult que serão adotados
+  5. Os resultados desta análise crítica devem ser registrados nas atas de reunião de abertura ou primeira análise crítica de projeto
+  6. Dados de entrada geralmente são formalizados em documentos de referência que devem ser requeridos dos clientes como base inicial para o desenvolvimento do projeto
 
 ### 5.3. Reunião de Abertura do Projeto
 O Gerente de Projeto agenda a reunião de abertura do projeto e providência com a devida antecedência, para análise do Coordenador de Projeto, Coordenador de Disciplina, Coordenador PDI, Qualidade e Job Leaders o acesso aos documentos e informações técnicas de contrato ou gerados na fase de proposta e negociação. Também deverão ser apresentadas as horas aprovadas para consumo de cada disciplina, bem como a composição prevista de equipe.
+
 Os Job Leaders deverão analisar os documentos e informações e identificar as dúvidas, pendências e esclarecimentos necessários, que deverão ser levados para a Reunião de Abertura para a discussão com o Gerente de Projeto.
+
 O Gerente de Projeto identifica e qualifica os riscos de projeto a serem administrados através das reuniões de acompanhamento e/ou nas reuniões de análise crítica. A reunião de abertura é coordenada pelo Gerente de Projeto, registrada em ata e pode ser considerada a primeira análise crítica do projeto. O Gerente do Projeto promove também a reunião de abertura com o cliente, na qual serão discutidos os pontos básicos do projeto a ser executado.
+
 Para registro da reunião de abertura com o cliente poderá ser utilizado o formulário de ata da Blossom Consult ou o do cliente.
 
 ### 5.4. Lista de Pendências
@@ -360,46 +371,61 @@ O Coordenador de Projeto e o Planejamento são responsáveis pelo acompanhamento
 
 ### 5.5. EAP
 O desenvolvimento da Engenharia Blossom inicia-se com a EAP. Esta é definida no nível de documentos a serem elaborados e demais atividades relacionadas ao desenvolvimento e gerenciamento do projeto.
+
 Nesta atividade o Gerente de Projeto é auxiliado pela área de Planejamento.
+
 O Gerente de Projeto deve promover, no início do desenvolvimento do projeto, a consolidação da EAP visando principalmente:
 - Consolidação do escopo dos serviços
 - Consolidação da estimativa de documentos
 - Promover uma melhor programação dos serviços
 - Consolidação dos custos e receitas do projeto.
-A EAP do projeto deve ser inserida na Norma de Coordenação ou disponibilizada no Site
-do projeto.
+
+A EAP do projeto deve ser inserida na Norma de Coordenação ou disponibilizada no Site do projeto.
 
 ### 5.6. Elaboração da LD
 A lista de documentos do projeto é gerada, de forma preliminar, na fase de propostas.
+
 No início de cada projeto, a LD será analisada e revisada quando necessário (caso haja mudança ou adequação de escopo). Os documentos são cadastrados pelo Doc Control. A inserção das informações de controle dos documentos e a elaboração do documento LD são feitos pelo Planejamento. Para projetos elaborados em plataformas BIM serão considerados na LD modelos federados (Integração dos modelos das disciplinas) por área e/ou pacote.
+
 Cada Job Leader é responsável por seguir a LD e fornecer ao Coordenador de Projeto, Gerente de Projeto e ao Planejamento as informações a respeito do andamento dos trabalhos. Necessidades de alterações na LD (títulos, numeração, etc.) devem ser informadas ao Doc Control. Já a inclusão e exclusão de documentos devem ser feitas pela gestão de mudanças.
+
 A inclusão e exclusão de documentos na LD deve ser aprovada pelo Gerente de Projeto através da gestão de novos documentos no ELFA.
 
 ### 5.7. Elaboração do Cronograma
-O Gerente do Projeto delega a elaboração do cronograma ao Planejamento, esse, por sua vez, em conjunto com o Coordenador de Projeto e o Job Leader, elabora o cronograma do projeto, a partir das necessidades das demandas acertadas em contrato (datas, marcos
-ou cronograma macro) e conforme a EAP do projeto. Ao fim, as datas definidas como Baseline são completadas na LD.
+O Gerente do Projeto delega a elaboração do cronograma ao Planejamento, esse, por sua vez, em conjunto com o Coordenador de Projeto e o Job Leader, elabora o cronograma do projeto, a partir das necessidades das demandas acertadas em contrato (datas, marcos ou cronograma macro) e conforme a EAP do projeto. Ao fim, as datas definidas como Baseline são completadas na LD.
+
 O cronograma do projeto é atualizado pelo Planejamento semanalmente ou de acordo com o contrato. O Gerente de Projeto é responsável por analisar o cronograma, juntamente com o Coordenador de Projeto e o Job Leader. O Planejamento deve informar as ações necessárias sobre eventuais desvios para a recuperação de prazos.
 
 ### 5.8. Elaboração da Norma de Coordenação
-A Norma de Coordenação define as diretrizes estabelecidas entre a Blossom Consult e o cliente para o desenvolvimento do projeto. Ela deve ser elaborada pelos Gerente de Projeto e verificada pelo Coordenador de Projeto. A Norma de Coordenação deve ser disponibilizada na estrutura de Gerenciamento do Projeto (pasta GPR). Estas devem ser emitidas para aprovação do cliente através de GRD, quando acordado. Dependendo do contrato, de requisitos e normas de cada cliente, e da complexidade do escopo, os projetos podem ter práticas específicas que alterem, substituam ou tornem procedimentos corporativos não aplicáveis (em todo ou em parte). Quando os itens tratados na Norma de Coordenação sofrerem mudanças em decorrência de alterações contratuais ou outras, a mesma deverá ser revisada e encaminhada ao cliente para nova aprovação.
+A Norma de Coordenação define as diretrizes estabelecidas entre a Blossom Consult e o cliente para o desenvolvimento do projeto. Ela deve ser elaborada pelos Gerente de Projeto e verificada pelo Coordenador de Projeto.
+
+A Norma de Coordenação deve ser disponibilizada na estrutura de Gerenciamento do Projeto (pasta GPR). Estas devem ser emitidas para aprovação do cliente através de GRD, quando acordado.
+
+Dependendo do contrato, de requisitos e normas de cada cliente, e da complexidade do escopo, os projetos podem ter práticas específicas que alterem, substituam ou tornem procedimentos corporativos não aplicáveis (em todo ou em parte). Quando os itens tratados na Norma de Coordenação sofrerem mudanças em decorrência de alterações contratuais ou outras, a mesma deverá ser revisada e encaminhada ao cliente para nova aprovação.
 
 ### 5.9. Desenvolvimento de Projetos em BIM
-Para projetos desenvolvidos em plataformas BIM serão seguidos os processos e diretrizes estabelecidos no procedimento geral PDI, este aborda os pontos relevantes ou faz menção a outros documentos que devem ser seguidos para a elaboração dos modelos
-durante o projeto.
+Para projetos desenvolvidos em plataformas BIM serão seguidos os processos e diretrizes estabelecidos no procedimento geral PDI, este aborda os pontos relevantes ou faz menção a outros documentos que devem ser seguidos para a elaboração dos modelos durante o projeto.
 
 ### 5.10. Desenvolvimento do Projeto
+> Descrever brevemente essa seção
 
 #### 5.10.1. Levantamento de Campo
 Quando necessário, deve ser feito por profissionais qualificados, após a definição de datas, condições de levantamento, prazos, atividades a serem executadas e profissional de interface do cliente.
+
+
 Após o levantamento de campo, os profissionais envolvidos devem elaborar o Relatório de Levantamento de Campo com tudo o que foi acordado e com os contatos (definições do cliente).
 
 #### 5.10.2. Elaboração de Projetos
 A elaboração de um projeto poderá, conforme for o escopo do contrato, abranger a realização de atividades técnicas tais como: levantamentos, estudos, conceituação, cálculos, especificação de características, definição de materiais, desenhos, análises e revisões.
+
 No desenvolvimento destas atividades são gerados os documentos técnicos próprios da fase de projeto (conceitual, básico ou detalhado), necessários para cumprir o escopo contratado. A definição dos documentos técnicos que serão gerados em cada disciplina no projeto se constitui na LD do projeto.
+
 Os documentos típicos de cada fase de projeto e de cada disciplina, e sua interrelação são estabelecidos em instruções de trabalho específicas das respectivas disciplinas.
 
 #### 5.10.3. Critérios de Projeto
-O Job Leader, com base nos requisitos técnicos do projeto estabelecidos pelo cliente, e considerando os critérios padrão de desenvolvimento de projetos de Engenharia, preparam os dados básicos e critérios de projeto da sua disciplina. Estes documentos estabelecem os limites, dados, normas gerais e específicas, critérios de dimensionamento, características, unidades, aspectos e condições que serão considerados no desenvolvimento do projeto.
+O Job Leader, com base nos requisitos técnicos do projeto estabelecidos pelo cliente, e considerando os critérios padrão de desenvolvimento de projetos de Engenharia, preparam os dados básicos e critérios de projeto da sua disciplina.
+
+Estes documentos estabelecem os limites, dados, normas gerais e específicas, critérios de dimensionamento, características, unidades, aspectos e condições que serão considerados no desenvolvimento do projeto.
 
 #### 5.10.4. Fluxo de Trabalho no ELFA
 O fluxo de trabalho na Engenharia é suportado pelo ELFA Gestão, que controla a elaboração, emissão e revisão dos documentos e desenhos de Engenharia e permite o acompanhamento das etapas de elaboração e da situação de cada documento produzido, inclusive das etapas de verificação e de aprovação.
@@ -410,13 +436,16 @@ Verificação de Desenhos e Documentos.
 
 #### 5.10.6. Aprovação de Projeto e Validação pelo Cliente
 O aprovador faz a análise final, aprova e autoriza a emissão do documento ao cliente. Em seguida, o documento é enviado pelo Controle de Documentação ao cliente através dos canais de comunicação estabelecidos, devidamente acompanhado de GRD para controle das emissões.
+
 O processo de aprovação do cliente deve ser definido pelo Gerente em acordo com o cliente e registrado na Norma de Coordenação.
+
 A aprovação dos documentos pelo cliente confirma a validação do projeto e de sua capacidade em atender aos requisitos da aplicação. A aprovação do cliente é registrada no ELFA.
 
 #### 5.10.7. Controle de Revisão e/ou Retrabalho de Documentos
 Os documentos técnicos possuem duas revisões:
 - Revisão Blossom Consult: Todo documento emitido inicialmente deverá estar na revisão “00” e as revisões seguintes serão numéricas sequenciais
 - Revisão do Cliente: O índice da revisão do cliente (forma de representação) - numérico, alfabético ou misto. Esta revisão segue o procedimento acordado com o cliente para o projeto e deverá constar na Norma de Coordenação e no Padrão de Projeto.
+
 Revisões de documentos são tratadas e controladas com suporte do sistema ELFA
 Gestão da mesma forma que a emissão original.
 
@@ -424,6 +453,7 @@ Gestão da mesma forma que a emissão original.
 O Gerente de Projeto promove reuniões para acompanhamento do progresso do projeto, coordenação de atividades e de informações técnicas com a equipe de projeto. As reuniões de acompanhamento devem ser registradas em atas.
 
 ### 5.11. Avaliação e Controle
+> Descrever brevemente essa seção
 
 #### 5.11.1. Análise Crítica do Projeto
 Devem ser realizadas ao longo do desenvolvimento do projeto, pelo Gerente de Projeto e devem abranger:
@@ -433,22 +463,31 @@ O Gerente do Projeto define os participantes desta atividade de acordo com os ob
 
 #### 5.11.2. Relacionamento com o Cliente
 O Gerente do Projeto deve estabelecer com o cliente formas de mantê-lo informado do desenvolvimento do projeto e seus resultados, através de reuniões e/ou relatórios de progresso.
+
 Reclamações relacionadas à falta de atendimento de requisitos contratuais devem ser registradas pelo Gerente do Projeto ou pela Qualidade e tratadas de acordo com a Instrução de Trabalho de Satisfação de Cliente.
+
 O Gerente do Projeto deve promover a devida análise de causas, estabelecer e implementar as ações requeridas e retornar informação ao cliente sobre a solução do problema.
+
 A satisfação do cliente é avaliada também através de pesquisas coordenadas pela Qualidade.
 
 #### 5.11.3. Inserção de Novos Documentos
 As mudanças de escopo em relação ao Plano de Trabalho aprovado, devem ser inseridas dentro do fluxo de Engenharia no ELFA Gestão. Caso exista solicitação de novos documentos pela produção, o Gerente de Projeto deverá aprovar e inserir o item de medição.
+
 Controle de documentação, Planejamento e solicitante recebem a aprovação e dão continuidade nas atividades conforme suas atribuições.
 
 #### 5.11.4. Medição e Acompanhamento do Faturamento e Recebimento
 As medições dos projetos serão elaboradas pelo setor de Medição, com apoio do Gerente de Projeto.
+
 Existem vários modos de se “medir” um projeto. Por marcos de medição, por avanço da lista de desenhos e documentos, por alocação de mão de obra etc.
+
 A periodicidade, datas e formas a serem medidas são definidas pela Norma de Coordenação e/ou contrato.
+
 Após aprovação do Boletim de Medição pelo cliente, o setor de Medição envia ao Setor Financeiro da empresa a liberação para emissão da Nota Fiscal.
+
 E de responsabilidade do setor de medição manter o correto histórico e registro das emissões e aprovações das medições, bem como saldo do contrato e valor já medido.
 
 ### 5.12. Encerramento do Contrato
+> Descrever brevemente essa seção
 
 #### 5.12.1. Documentação de Encerramento
 O Gerente de Projeto promove o encerramento formal do projeto/contrato, devendo elaborar e cobrar as seguintes atividades:
@@ -469,16 +508,19 @@ Contratos tipo “Guarda Chuva” podem ter contas encerradas tecnicamente ao fi
 
 ## 6. Lições Aprendidas - Conhecimento Organizacional
 Lição aprendida é o conhecimento ou entendimento obtido por uma experiência (positiva ou negativa). Sucessos e fracassos são considerados também fontes de Lições Aprendidas.
+
 Uma lição aprendida deve agregar valor ao projeto podendo reduzir ou eliminar erros ou aumentar a produtividade e performance do projeto.
+
 Ao longo e no final do projeto/contrato, o Coordenador/Gerente de Projeto em conjunto com a equipe deve registrar as lições aprendidas através do formulário de Lições Aprendidas.
-As Lições Aprendidas são arquivadas no Site Execução na pasta Lições Aprendidas,
-formam uma base de conhecimento que podem e devem ser consultados antes de se iniciar um novo projeto.
+
+As Lições Aprendidas são arquivadas no Site Execução na pasta Lições Aprendidas, formam uma base de conhecimento que podem e devem ser consultados antes de se iniciar um novo projeto.
 
 ### 6.1. Pós Entrega
 As atividades de “pós entrega” devem ser monitoradas através dos atestados de capacidade técnica enviados pelos clientes.
+
 Quando o cliente não fornecer o atestado, o Gerente de Projeto é responsável por buscar as informações de pós entrega, registrá-las, aprovar junto a ele, e enviar para o setor Comercial.
 
-## 7. ANEXOS
+## 7. Anexos
 
 Documento | Título | Caminho
 ----------|--------|--------
