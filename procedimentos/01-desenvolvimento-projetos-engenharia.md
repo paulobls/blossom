@@ -3,6 +3,8 @@
 ## 1. Objetivo
 Estabelecer as diretrizes, as atividades e as responsabilidades existentes no planejamento e desenvolvimento da nossa Engenharia
 
+---
+
 ## 2. Definições
 
 Termo | Definição
@@ -25,6 +27,8 @@ SE | Solicitação de Engenharia
 SGI | Sistema de Gestão Integrada
 Site | Estrutura de Pastas de Cada Projeto/Processo
 TI | Tecnologia da Informação
+
+---
 
 ## 3. Responsabilidades
 - Diretor(a) de Operações
@@ -262,6 +266,8 @@ Consult
 - Prevenir e cobrar dos demais colaboradores quando identificar situações de risco e não conformidades no cumprimento das normas de segurança no trabalho, meio ambiente, Qualidade e responsabilidade social
 - Executar suas atividades obedecendo aos procedimentos de segurança, proteção ao meio ambiente e Qualidade recomendados pela empresa e contratante
 
+---
+
 ## 4. Considerações Gerais
 
 ### 4.1. Estrutura Típica de Projeto
@@ -314,7 +320,7 @@ Site comum de compartilhamento de informações a toda a equipe de Engenharia. N
 #### 4.2.4. Sistema de Gestão Integrado
 Site destinado ao armazenamento das informações do Sistema de Gestão da Qualidade, como procedimentos, instruções de trabalho, formulários e LVE’s.
 
-### 4.3. Onedrive
+### 4.3. OneDrive
 O OneDrive é um ambiente de armazenamento de documentos/arquivos online, devem estar arquivos de trabalho para atividades individuais, em desenvolvimento, que ainda não são compartilhados com outros colaboradores e/ou áreas da Blossom Consult.
 É proibido o armazenamento de informações nos Drives locais do equipamento do usuário (C:, D:, etc.) laptop e desktop. Com esta política, caso necessário a Tecnologia da Informação da Blossom Consult pode formatar os equipamentos sem que haja perda de informação da empresa.
 
@@ -330,6 +336,8 @@ Atende as Requisições de Serviço dos Usuários como: solicitações de softwa
 homologado, solicitações de hardware, movimentação de equipamentos etc. e a
 Incidentes (interrupção não panejada de um serviço, ou redução na qualidade de um serviço).
 Acesse em: Blossom Digital → Service Desk
+
+---
 
 ## 5. Metodologia
 
@@ -510,6 +518,8 @@ O Gerente do Projeto promove ao final do projeto reunião de encerramento visand
 - Problemas identificados durante a execução do projeto, tanto internamente como na interface com o cliente.
 Contratos tipo “Guarda Chuva” podem ter contas encerradas tecnicamente ao final de cada OS, sem necessidade de reuniões de encerramento individuais, mediante aprovação do Gerente de Projeto responsável pela OS.
 
+---
+
 ## 6. Lições Aprendidas - Conhecimento Organizacional
 Lição aprendida é o conhecimento ou entendimento obtido por uma experiência (positiva ou negativa). Sucessos e fracassos são considerados também fontes de Lições Aprendidas.
 
@@ -523,6 +533,8 @@ As Lições Aprendidas são arquivadas no Site Execução na pasta Lições Apre
 As atividades de “pós entrega” devem ser monitoradas através dos atestados de capacidade técnica enviados pelos clientes.
 
 Quando o cliente não fornecer o atestado, o Gerente de Projeto é responsável por buscar as informações de pós entrega, registrá-las, aprovar junto a ele, e enviar para o setor Comercial.
+
+---
 
 ## 7. Anexos
 
