@@ -5,8 +5,6 @@ Estabelecer as diretrizes, as atividades e as responsabilidades existentes no pl
 
 # 2. Definições
 
-> Descrever brevemente essa seção
-
 Termo | Definição
 ------|----------
 BIM | Building Information Modeling (Modelagem da Informação da Construção)
@@ -29,8 +27,6 @@ Site | Estrutura de Pastas de Cada Projeto/Processo
 TI | Tecnologia da Informação
 
 # 3. Responsabilidades
-
-> Descrever brevemente essa seção
 
 - Diretor(a) de Operações
 - Gerente de Projeto
