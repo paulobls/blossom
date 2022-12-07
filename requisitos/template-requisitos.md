@@ -1,24 +1,24 @@
-# Introdução
+# 1. Introdução
 
 Esse documento especifica em detalhes como o Sistema ELFA deve tratar os permissionamentos de seus usuários nos diversos módulos e funções do sistema.
 
 Escopo: Aplicável em todos os módulos do sistema já construídos e também nos módulos a serem desenvolvidos.
 
-# Descrição Geral
+# 2. Descrição Geral
 
 Na versão atual do sistema, temos um cadastro de perfis de usuários. Através do código fonte, os módulos e as funcionalidades de cada módulo são habilitados para o usuário considerando o perfil que foi atribuído a ele (cadastro de usuário). Assim, sempre que é necessário um novo perfil de acesso, o analista ELFA deve ser contactado para alterar o programa e considerar esse novo perfil.
 
 A especificação descrita nesse documento indica o caminho correto para mantermos uma rotina simples e rápida para as atribuições ou restrições de permissões de acesso.
 
-## Perspectiva
+## 2.1. Perspectiva
 
 Liberação no menu de cada módulo apenas das funcionalidades autorizadas para o funcionário sem a intervenção do Analista de Sistemas.
 
-# Requisitos Funcionais
+# 3. Requisitos Funcionais
 
-## Diagrama de Caso de Uso
+## 3.1. Diagrama de Caso de Uso
 
-### Primeira Etapa
+### 3.1.1. Primeira Etapa
 
 O Suporte do ELFA, faz o cadastro os módulos do sistema e suas funcionalidades, criando uma estrutura de dados similar a ilustrada abaixo:
 
@@ -42,7 +42,7 @@ Para cada funcionalidade o sistema deve prever a DLL (ou rotina, programa, etc..
 Deve ser previsto também que as funcionalidades do sistema podem ser agrupadas fazendo parte de um submenu do módulo.
 Exemplo da organização dos dados:
 
-### Segunda Etapa
+### 3.1.2. Segunda Etapa
 
 O Elfa possui uma tabela com o perfil de acessos dos usuários como mostrado a seguir:
 
@@ -51,4 +51,4 @@ Assim, a estrutura de dados ficaria dessa forma:
 
 > Inserir ER
 > 
-# Requisitos de Segurança
+# 4. Requisitos de Segurança
