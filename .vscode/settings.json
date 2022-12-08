@@ -14,5 +14,7 @@
   "markdown.updateLinksOnFileMove.enabled": "prompt",
   "markdown.extension.toc.levels": "2..6",
   "markdown.extension.preview.autoShowPreviewToSide": true,
-  "git.autofetch": true
+  "git.autofetch": true,
+  "editor.minimap.enabled": false,
+  "workbench.iconTheme": "material-icon-theme"
 }
