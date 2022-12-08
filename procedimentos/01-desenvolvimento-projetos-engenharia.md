@@ -304,7 +304,6 @@ O Coordenador de Escritório poderá assumir atribuições do Coordenador de Pro
     A --- B & F & G & H & I & J
     B --- C --- D --- E
 
-
     style A fill:#C5CAE9
     style B fill:#FFF9C4
     style C fill:#DCEDC8

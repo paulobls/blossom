@@ -1,1 +1,18 @@
-{}
+{
+  "editor.bracketPairColorization.enabled": false,
+  "editor.foldingImportsByDefault": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.insertSpaces": false,
+  "editor.padding.top": 20,
+  "editor.tabCompletion": "on",
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "files.autoGuessEncoding": true,
+  "files.insertFinalNewline": true,
+  "markdown.updateLinksOnFileMove.enabled": "prompt",
+  "markdown.extension.toc.levels": "2..6",
+  "markdown.extension.preview.autoShowPreviewToSide": true,
+  "git.autofetch": true
+}
