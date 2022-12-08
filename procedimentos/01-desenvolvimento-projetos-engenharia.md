@@ -288,6 +288,14 @@ O Coordenador de Escritório poderá assumir atribuições do Coordenador de Pro
 
 ### 4.1. Estrutura Típica de Projeto
 
+```mermaid
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
+```
+
 [![Estrutura Típica de Projeto](https://mermaid.ink/img/pako:eNp1kt9rwjAQx_-VkMHoQGGMjWnfbH6oZYJD31ofMnNqJE26mD6I-L8vapTiMOGO5D5f7o7jDnhpJeAUr52oN2ielQaFM0iG4MB4QBLQ1NktePtyQVlCrHUSjJDW_cfkHlO1W6paKyOigiYlzu0P-gIhwaFEtgQ4alhSlJj9Nqq-5b8TLqKSF1MtDGxFFdq1i0twWDCzBrMRTonQwFp5oSMaFdQuEbHGO3uNjYvvRmglQz8xkhczNpvMwy_OA3W7XZShZ8SDDYONgo2D5XEqZwE5e3r27AKuGXZ-ryHkWSmt0yfyQQas3yZZJJzzPnlvExIJJYySXpvQSNgr_-SDNmHXOpz2KGkT_rDO8CEZPSTjGyGUvrVJfkdOF3dwBa4SSoaFO5zUJfYbqKDEaXhKWIlG-xKX5hikovF2tjdLnHrXQAc3tRQeqBJhVSucroTehShI5a2bXJb4vMvHP2Vq2ms?type=png)](https://mermaid.live/edit#pako:eNp1kt9rwjAQx_-VkMHoQGGMjWnfbH6oZYJD31ofMnNqJE26mD6I-L8vapTiMOGO5D5f7o7jDnhpJeAUr52oN2ielQaFM0iG4MB4QBLQ1NktePtyQVlCrHUSjJDW_cfkHlO1W6paKyOigiYlzu0P-gIhwaFEtgQ4alhSlJj9Nqq-5b8TLqKSF1MtDGxFFdq1i0twWDCzBrMRTonQwFp5oSMaFdQuEbHGO3uNjYvvRmglQz8xkhczNpvMwy_OA3W7XZShZ8SDDYONgo2D5XEqZwE5e3r27AKuGXZ-ryHkWSmt0yfyQQas3yZZJJzzPnlvExIJJYySXpvQSNgr_-SDNmHXOpz2KGkT_rDO8CEZPSTjGyGUvrVJfkdOF3dwBa4SSoaFO5zUJfYbqKDEaXhKWIlG-xKX5hikovF2tjdLnHrXQAc3tRQeqBJhVSucroTehShI5a2bXJb4vMvHP2Vq2ms)
 
 - _Cada disciplina terá um Job Leader, responsável por uma Equipe de Projeto_
