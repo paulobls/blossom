@@ -289,11 +289,32 @@ O Coordenador de Escritório poderá assumir atribuições do Coordenador de Pro
 ### 4.1. Estrutura Típica de Projeto
 
 ```mermaid
-  graph TD;
-      A-->B;
-      A-->C;
-      B-->D;
-      C-->D;
+  graph TB
+    A(Gerente de Projeto)
+    B(Coordenador de Projeto)
+    C(Coordenador de Disciplina)
+    D("Job Leader (disciplina)")
+    E(["Equipe Projeto (disciplina)"])
+    F[Planejamento]
+    G[Engenharia Digital]
+    H[Doc Control]
+    I[Qualidade]
+    J[SESMT]
+
+    A --- B & F & G & H & I & J
+    B --- C --- D --- E
+
+
+    style A fill:#C5CAE9
+    style B fill:#FFF9C4
+    style C fill:#DCEDC8
+    style D fill:#E0F7FA
+    style E fill:#CFD8DC
+    style F fill:#FFF9C4
+    style G fill:#FFF9C4
+    style H fill:#FFF9C4
+    style I fill:#FFCDD2
+    style J fill:#FFCDD2
 ```
 
 [![Estrutura Típica de Projeto](https://mermaid.ink/img/pako:eNp1kt9rwjAQx_-VkMHoQGGMjWnfbH6oZYJD31ofMnNqJE26mD6I-L8vapTiMOGO5D5f7o7jDnhpJeAUr52oN2ielQaFM0iG4MB4QBLQ1NktePtyQVlCrHUSjJDW_cfkHlO1W6paKyOigiYlzu0P-gIhwaFEtgQ4alhSlJj9Nqq-5b8TLqKSF1MtDGxFFdq1i0twWDCzBrMRTonQwFp5oSMaFdQuEbHGO3uNjYvvRmglQz8xkhczNpvMwy_OA3W7XZShZ8SDDYONgo2D5XEqZwE5e3r27AKuGXZ-ryHkWSmt0yfyQQas3yZZJJzzPnlvExIJJYySXpvQSNgr_-SDNmHXOpz2KGkT_rDO8CEZPSTjGyGUvrVJfkdOF3dwBa4SSoaFO5zUJfYbqKDEaXhKWIlG-xKX5hikovF2tjdLnHrXQAc3tRQeqBJhVSucroTehShI5a2bXJb4vMvHP2Vq2ms?type=png)](https://mermaid.live/edit#pako:eNp1kt9rwjAQx_-VkMHoQGGMjWnfbH6oZYJD31ofMnNqJE26mD6I-L8vapTiMOGO5D5f7o7jDnhpJeAUr52oN2ielQaFM0iG4MB4QBLQ1NktePtyQVlCrHUSjJDW_cfkHlO1W6paKyOigiYlzu0P-gIhwaFEtgQ4alhSlJj9Nqq-5b8TLqKSF1MtDGxFFdq1i0twWDCzBrMRTonQwFp5oSMaFdQuEbHGO3uNjYvvRmglQz8xkhczNpvMwy_OA3W7XZShZ8SDDYONgo2D5XEqZwE5e3r27AKuGXZ-ryHkWSmt0yfyQQas3yZZJJzzPnlvExIJJYySXpvQSNgr_-SDNmHXOpz2KGkT_rDO8CEZPSTjGyGUvrVJfkdOF3dwBa4SSoaFO5zUJfYbqKDEaXhKWIlG-xKX5hikovF2tjdLnHrXQAc3tRQeqBJhVSucroTehShI5a2bXJb4vMvHP2Vq2ms)
