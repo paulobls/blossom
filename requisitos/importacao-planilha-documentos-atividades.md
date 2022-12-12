@@ -10,7 +10,7 @@ Atualmente, não é possível fazer a operação de Create de Documentos/Ativida
 
 > Alguns projetos podem chegar a centenas de documentos e atividades
 
-> Imagem aqui
+<!Imagem aqui>
 
 ### 1.2. Objetivo
 
@@ -22,23 +22,31 @@ Deve se aplicar a todo o sistema, no entanto, atualmente o processo de cadastro 
 
 ### 1.4. Modelagem de Processos
 
-#### 1.4.1. Processo 1
+#### 1.4.1. Processo Geral
 
 ```mermaid
-flowchart LR
-    A[Hard edge] -->|Link text| B(Round edge)
-    B --> C{Decision}
-    C -->|One| D[Result one]
-    C -->|Two| E[Result two]
+graph TB
+    A(Solicitação de OSE) ---> B
+    B{Precisa de FCE?} --"Sim"--> C
+    C[[Fase de Conhecimento de Escopo]]---> D
+    B --"Não"--> D
+    D[Cadastrar OS] ---> E
+    E[Cadastrar Escopo] ---> F
+    F[Cadastrar Entregáveis] ---> G
+    G[Revisar Orçamento] ---> H
+    H[Elaborar Cronograma Macro] ---> I
+    I[Enviar Orçamento para o Cliente] ---> J
+    J{Aprovado pelo Cliente?} --"Sim"--> K
+    J --"Não"--> D
+    K[Confirmar Orçamento no ELFA]
 ```
 
 ## 2. Requisitos
 
 ### 2.1. Histórias de Usuários
 
-| Persona _(Eu como...)_ | Ação _(quero/Preciso...)_         | Benefício _(para...)_             |
-| ---------------------- | --------------------------------- | --------------------------------- |
-| Gerente de Projetos    | Visualizar o avanço do Cronograma | Acompanhar o andamento do Projeto |
+| Persona _(Eu como...)_ | Ação _(quero/preciso...)_ | Benefício _(para...)_ |
+| ---------------------- | ------------------------- | --------------------- |
 
 ### 2.2. Lista de Requisitos
 
@@ -71,13 +79,13 @@ stateDiagram
 
 ```mermaid
 erDiagram
-    CUSTOMER }|..|{ DELIVERY-ADDRESS : has
-    CUSTOMER ||--o{ ORDER : places
+    CUSTOMER }|..|{ DELIVERY-ADDRESS : "has"
+    CUSTOMER ||--o{ ORDER : "places"
     CUSTOMER ||--o{ INVOICE : "liable for"
-    DELIVERY-ADDRESS ||--o{ ORDER : receives
-    INVOICE ||--|{ ORDER : covers
-    ORDER ||--|{ ORDER-ITEM : includes
-    PRODUCT-CATEGORY ||--|{ PRODUCT : contains
+    DELIVERY-ADDRESS ||--o{ ORDER : "receives"
+    INVOICE ||--|{ ORDER : "covers"
+    ORDER ||--|{ ORDER-ITEM : "includes"
+    PRODUCT-CATEGORY ||--|{ PRODUCT : "contains"
     PRODUCT ||--o{ ORDER-ITEM : "ordered in"
 ```
 
@@ -88,3 +96,7 @@ erDiagram
 | Campo         | Tipo                                                                     | Restrições                                   | Valor default | Not Null |
 | ------------- | ------------------------------------------------------------------------ | -------------------------------------------- | ------------- | -------- |
 | nome_do_campo | Texto, Número, Data, Arquivo, Seleção única, Seleção Múltipla, Tabela... | Formato de Email, Exatamente 6 caracteres... |               |
+
+## 5 Referências
+
+[BL0000-GP-PRC-0004 - Orçamentação](https://blossomconsultoria.sharepoint.com/:w:/r/sites/SGQ2/Documentos%20Compartilhados/01_Procedimentos/08_Gerenciamento%20de%20Projeto/BL0000-GP-PRC-0004%20-%20Or%C3%A7amenta%C3%A7%C3%A3o%20Rev.00.docx?d=w664883832c8e487881bd014687382702&csf=1&web=1&e=CYyQhH)
