@@ -71,23 +71,28 @@ graph TB
 
 ```mermaid
 erDiagram
-    CUSTOMER }|..|{ DELIVERY-ADDRESS : "has"
-    CUSTOMER ||--o{ ORDER : "places"
-    CUSTOMER ||--o{ INVOICE : "liable for"
-    DELIVERY-ADDRESS ||--o{ ORDER : "receives"
-    INVOICE ||--|{ ORDER : "covers"
-    ORDER ||--|{ ORDER-ITEM : "includes"
-    PRODUCT-CATEGORY ||--|{ PRODUCT : "contains"
-    PRODUCT ||--o{ ORDER-ITEM : "ordered in"
+    CLIENTE ||--o{ MORC_OS : ""
+    MORC_OS ||--o{ MORC_ORM : ""
+    MORC_ORM ||--o{ MORC_ORM_ESPDISC : ""
+    MORC_ORM ||--o{ MORC_ORM_LISTDA : ""
 ```
+
+> MORC_OS | Ordem de Serviço
+>
+> MORC_ORM | Orçamento
+>
+> MORC_ORM_ESPDISC | Escopo por Disciplina
+>
+> MORC_ORM_LISTDA | Documento e Atividade
 
 ### 3.2. Campos
 
-#### 3.2.1. Tabela Entidade A
+#### 3.2.1. MORC_ORM_LISTDA
 
-| Campo         | Tipo                                                                     | Restrições                                   | Valor default | Not Null |
-| ------------- | ------------------------------------------------------------------------ | -------------------------------------------- | ------------- | -------- |
-| nome_do_campo | Texto, Número, Data, Arquivo, Seleção única, Seleção Múltipla, Tabela... | Formato de Email, Exatamente 6 caracteres... |               |
+| Campo                  | Tipo                                                                     | Restrições                                   | Valor default | Not Null |
+| ---------------------- | ------------------------------------------------------------------------ | -------------------------------------------- | ------------- | -------- |
+| nome_do_campo          | Texto, Número, Data, Arquivo, Seleção única, Seleção Múltipla, Tabela... | Formato de Email, Exatamente 6 caracteres... |               |
+| documento_ou_atividade | Seleção única                                                            | Documento, atividade                         |               | Sim      |
 
 ## 4. 5 Referências
 
