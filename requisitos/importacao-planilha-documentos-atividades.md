@@ -12,7 +12,6 @@ Atualmente, não é possível fazer a operação de Create de Documentos/Ativida
   - São criados Documentos ou Atividades do mesmo tipo (e não possível alterar o tipo depois da criação)
   - Os demais campos (ex: títulos) devem ser preenchidos um por um
 
-
 ### 1.2. Objetivo
 
 Aumentar a produtividade através do cadastro em lote de novos DA de um Projeto a partir de um arquivo Excel.
@@ -23,24 +22,32 @@ Deve se aplicar a todo o sistema, no entanto, atualmente o processo de cadastro 
 
 ### 1.4. Modelagem de Processos
 
-#### 1.4.1. Processo Geral
+#### 1.4.1. Processo Geral de Orçamentação
 
 ```mermaid
 graph TB
-    A(Solicitação de OSE) ---> B
-    B{Precisa de FCE?} --"Sim"--> C
-    C[[Fase de Conhecimento de Escopo]]---> D
-    B --"Não"--> D
-    D[Cadastrar OS] ---> E
-    E[Cadastrar Escopo] ---> F
-    F[Cadastrar Entregáveis] ---> G
-    G[Revisar Orçamento] ---> H
-    H[Elaborar Cronograma Macro] ---> I
-    I[Enviar Orçamento para o Cliente] ---> J
-    J{Aprovado pelo Cliente?} --"Sim"--> K
-    J --"Não"--> D
-    K[Confirmar Orçamento no ELFA]
+    A("Solicitação de OSE") ---> B
+    B{"Precisa de FCE?"} --->|Sim| C
+    C[["Fase de Conhecimento de Escopo"]]---> D
+    B --->|Não| D
+    D["Cadastrar OS [1]"] ---> E
+    E["Cadastrar Escopo [2]"] ---> F
+    F["Cadastrar Entregáveis [3]"] ---> G
+    G["Revisar Orçamento"] ---> H
+    H["Elaborar Cronograma Macro"] ---> I
+    I["Enviar Orçamento para o Cliente"] ---> J
+    J{"Aprovado pelo Cliente"?} --->|Sim| K
+    J --->|Não| D
+    K["Confirmar Orçamento no ELFA"]
 ```
+
+> ELFA/Orçamentação/...
+>
+> [1] OS - Dados de entrada
+>
+> [2] ORM/ORM - Escopo
+>
+> [3] ORM/ORM - Lista Docs / Atividades
 
 ## 2. Requisitos
 
@@ -51,32 +58,13 @@ graph TB
 
 ### 2.2. Lista de Requisitos
 
-- [ ] lorem ipsum
+- [ ] Cadastrar novos Documentos/Atividades a partir de uma planilha
 - [ ] lorem ipsum
 - [ ] lorem ipsum . . .
 
-### 2.3. Fluxo do Usuário/Casos de Uso do Usuário
+## 3. Dados
 
-```mermaid
-stateDiagram
-    direction LR
-    [*] --> A
-    A --> B
-    B --> C
-    state B {
-      direction LR
-      a --> b
-    }
-    B --> D
-```
-
-## 3. Interface
-
-![image](https://user-images.githubusercontent.com/114407461/206535989-8360f611-a22d-45bc-8d1d-08b31ad44005.png)
-
-## 4. Dados
-
-### 4.2. ER
+### 3.1. ER
 
 ```mermaid
 erDiagram
@@ -90,14 +78,14 @@ erDiagram
     PRODUCT ||--o{ ORDER-ITEM : "ordered in"
 ```
 
-### 4.1. Campos
+### 3.2. Campos
 
-#### Tabela Entidade A
+#### 3.2.1. Tabela Entidade A
 
 | Campo         | Tipo                                                                     | Restrições                                   | Valor default | Not Null |
 | ------------- | ------------------------------------------------------------------------ | -------------------------------------------- | ------------- | -------- |
 | nome_do_campo | Texto, Número, Data, Arquivo, Seleção única, Seleção Múltipla, Tabela... | Formato de Email, Exatamente 6 caracteres... |               |
 
-## 5 Referências
+## 4. 5 Referências
 
 [BL0000-GP-PRC-0004 - Orçamentação](https://blossomconsultoria.sharepoint.com/:w:/r/sites/SGQ2/Documentos%20Compartilhados/01_Procedimentos/08_Gerenciamento%20de%20Projeto/BL0000-GP-PRC-0004%20-%20Or%C3%A7amenta%C3%A7%C3%A3o%20Rev.00.docx?d=w664883832c8e487881bd014687382702&csf=1&web=1&e=CYyQhH)
