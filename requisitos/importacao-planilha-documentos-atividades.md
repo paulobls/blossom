@@ -4,25 +4,33 @@
 
 Cadastro de novos documentos ou atividades na Lista de Documentos e Atividades (LD/LA) no ELFA.
 
-### 1.1. Problema
+### 1.1. Termos utilizados
 
-Atualmente, não é possível fazer a operação de Create de Documentos/Atividades (DA) em lote. Assim, o cadastro de novos DA é feito um por vez e é muito moroso, consequentemente.
+| Termo | Definição                        |
+| ----- | -------------------------------- |
+| FCE   | Fase de Conhecimento de Escopo   |
+| LDLA  | Lista de Documentos e Atividades |
+| DA    | Documento(s) e Atividade(s)      |
 
-- É possível cadastrar mais de um documento por vez, mas a funcionalidade não atende muito bem a demanda pois:
-  - São criados Documentos ou Atividades do mesmo tipo (e não possível alterar o tipo depois da criação)
-  - Os demais campos (ex: títulos) devem ser preenchidos um por um
+### 1.2. Problema
 
-### 1.2. Objetivo
+Atualmente, não é possível fazer a operação _Insert_ na tabela da LDLA (MORC_ORM_LISTDA) em lote. Assim, o cadastro de novos DA é feito um por vez e é muito moroso, consequentemente.
+
+- Observação: É possível cadastrar mais de um documento por vez, mas a funcionalidade não atende muito bem a demanda pois:
+  - São criados DA do mesmo tipo (e não possível alterar o tipo depois da criação).
+  - Os demais campos (ex: títulos) devem ser preenchidos um por um.
+
+### 1.3. Objetivo
 
 Aumentar a produtividade através do cadastro em lote de novos DA de um Projeto a partir de um arquivo Excel.
 
-### 1.3. Escopo
+### 1.4. Escopo
 
-Deve se aplicar a todo o sistema, no entanto, atualmente o processo de cadastro de DA é feito no módulo Orçamentação
+Deve se aplicar a todo o sistema, no entanto, atualmente o processo de cadastro de DA é feito no módulo de Orçamentação.
 
-### 1.4. Modelagem de Processos
+### 1.5. Modelagem de Processos
 
-#### 1.4.1. Processo Geral de Orçamentação
+#### 1.5.1. Processo Geral de Orçamentação
 
 ```mermaid
 graph TB
@@ -51,15 +59,10 @@ graph TB
 
 ## 2. Requisitos
 
-### 2.1. Histórias de Usuários
-
-| Persona _(Eu como...)_ | Ação _(quero/preciso...)_ | Benefício _(para...)_ |
-| ---------------------- | ------------------------- | --------------------- |
-
-### 2.2. Lista de Requisitos
+### 2.1. Lista de Requisitos
 
 - [ ] Cadastrar novos Documentos/Atividades a partir de uma planilha
-- [ ] lorem ipsum
+- [ ] Gerar numeração (código) de cada DA automaticamente
 - [ ] lorem ipsum . . .
 
 ## 3. Dados
