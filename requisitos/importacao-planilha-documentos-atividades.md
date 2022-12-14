@@ -33,7 +33,7 @@ Deve se aplicar a todo o sistema, no entanto, atualmente o processo de cadastro 
 #### 1.5.1. Processo Geral de Orçamentação
 
 ```mermaid
-graph TB
+graph LR
     A("Solicitação de OSE") ---> B
     B{"Precisa de FCE?"} --->|Sim| C
     C[["Fase de Conhecimento de Escopo"]]---> D
