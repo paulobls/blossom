@@ -8,9 +8,10 @@ Cadastro de novos documentos ou atividades na Lista de Documentos e Atividades (
 
 Atualmente, não é possível fazer a operação de Create de Documentos/Atividades (DA) em lote. Assim, o cadastro de novos DA é feito um por vez e é muito moroso, consequentemente.
 
-> Alguns projetos podem chegar a centenas de documentos e atividades
+- É possível cadastrar mais de um documento por vez, mas a funcionalidade não atende muito bem a demanda pois:
+  - São criados Documentos ou Atividades do mesmo tipo (e não possível alterar o tipo depois da criação)
+  - Os demais campos (ex: títulos) devem ser preenchidos um por um
 
-<!Imagem aqui>
 
 ### 1.2. Objetivo
 
