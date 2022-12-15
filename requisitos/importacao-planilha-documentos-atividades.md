@@ -33,7 +33,7 @@ Deve se aplicar a todo o sistema, no entanto, atualmente o processo de cadastro 
 #### 1.5.1. Processo Geral de Orçamentação
 
 ```mermaid
-graph LR
+graph TB
     A("Solicitação de OSE") ---> B
     B{"Precisa de FCE?"} --->|Sim| C
     C[["Fase de Conhecimento de Escopo"]]---> D
@@ -61,9 +61,14 @@ graph LR
 
 ### 2.1. Lista de Requisitos
 
-- [ ] Cadastrar novos Documentos/Atividades a partir de uma planilha
+- [ ] Cadastrar novos DA a partir de uma planilha
 - [ ] Gerar numeração (código) de cada DA automaticamente
-- [ ] lorem ipsum . . .
+  - "OS"-"Sigla da Disciplina"-"Tipo"-"Contagem"
+    - BL1059-0001-DC-LDO-2000
+    - BL1059-0001-EL-ARJ-2000
+    - BL1059-0001-EL-DBA-2000
+- [ ] Gerar log de importação
+  - Deve conter descrição do erro e em quais linhas da planilha eles ocorrem
 
 ## 3. Dados
 
@@ -89,10 +94,15 @@ erDiagram
 
 #### 3.2.1. MORC_ORM_LISTDA
 
-| Campo                  | Tipo                                                                     | Restrições                                   | Valor default | Not Null |
-| ---------------------- | ------------------------------------------------------------------------ | -------------------------------------------- | ------------- | -------- |
-| nome_do_campo          | Texto, Número, Data, Arquivo, Seleção única, Seleção Múltipla, Tabela... | Formato de Email, Exatamente 6 caracteres... |               |
-| documento_ou_atividade | Seleção única                                                            | Documento, atividade                         |               | Sim      |
+<!--
+Campo         nome_do_campo
+Tipo          Texto, Número, Data, Arquivo, Seleção única, Seleção Múltipla, Tabela...
+Restrições    Formato de Email, Exatamente 6 caracteres...
+-->
+
+| Campo                  | Tipo          | Restrições           | Valor default | Not Null |
+| ---------------------- | ------------- | -------------------- | ------------- | -------- |
+| documento_ou_atividade | Seleção única | Documento, atividade |               | Sim      |
 
 ## 4. 5 Referências
 
