@@ -63,10 +63,8 @@ graph TB
 
 - [ ] Cadastrar novos DA a partir de uma planilha
 - [ ] Gerar numeração (código) de cada DA automaticamente
-  - "OS"-"Sigla da Disciplina"-"Tipo"-"Contagem"
+  - OS-Sigla da Disciplina-Tipo-Contagem
     - BL1059-0001-DC-LDO-2000
-    - BL1059-0001-EL-ARJ-2000
-    - BL1059-0001-EL-DBA-2000
 - [ ] Gerar log de importação
   - Deve conter descrição do erro e em quais linhas da planilha eles ocorrem
 
