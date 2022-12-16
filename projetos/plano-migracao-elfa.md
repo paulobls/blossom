@@ -168,7 +168,6 @@ IMS e VSAM
 São autônomos, isto é, não têm interface com nenhuma outra aplicação;
 Apresentam baixo desempenho; e
 Possuem pouca ou nenhuma documentação e geralmente estão desatualizadas.
-4
 
 Os sistemas de informações legados tradicionais são aqueles baseados em
 mainframe, porém, o paradigma de sistemas legados pode ser aplicado a qualquer
@@ -218,7 +217,6 @@ autores reconhecem que manter a consistência dos dados entre sistemas de inform
 heterogêneos representa um problema técnico complexo e que ainda não foi proposta
 uma solução geral. Os onze passos que compõem a metodologia Chicken
 Little são:
-5
 
 1. Analisar o sistema legado;
 1. Decompor a estrutura do sistema legado;
@@ -235,18 +233,21 @@ Little são:
    aspectos destacados é que estas fases devem ser tratadas como um subprojeto
    independente e o fato de não sê-lo, é uma fonte de falhas, atrasos e insucesso
    .
-   2.2.1.2. Butterfly
-   Ao contrário da metodologia Chicken Little, a metodologia Butterfly questiona a
-   necessidade de interoperabilidade entre as aplicações. Ela leva em
-   consideração o fato de que o sistema legado não estará em produção enquanto o
-   processo de migração ocorre. A metodologia propõe o desenvolvimento de
-   um motor de migração de dados, a fim de que o sistema legado fique fora do ar o
-   mínimo possível. Ela difere dos métodos Forward e Reverse Migration na medida em
-   que o sistema legado deve ficar fora do ar por um tempo considerável para facilitar a
-   migração dos dados antes do sistema destino entrar em funcionamento. Este é uma
-   abordagem mais simples, porém mais arriscada, pois todo o fluxo de informação da
-   aplicação passará a ser executado em um sistema não confiável. Segundo
-   Bing Wu et al., os passos que compõem a metodologia são:
+
+##### 2.2.1.2. Butterfly
+
+Ao contrário da metodologia Chicken Little, a metodologia Butterfly questiona a
+necessidade de interoperabilidade entre as aplicações. Ela leva em
+consideração o fato de que o sistema legado não estará em produção enquanto o
+processo de migração ocorre. A metodologia propõe o desenvolvimento de
+um motor de migração de dados, a fim de que o sistema legado fique fora do ar o
+mínimo possível. Ela difere dos métodos Forward e Reverse Migration na medida em
+que o sistema legado deve ficar fora do ar por um tempo considerável para facilitar a
+migração dos dados antes do sistema destino entrar em funcionamento. Este é uma
+abordagem mais simples, porém mais arriscada, pois todo o fluxo de informação da
+aplicação passará a ser executado em um sistema não confiável. Segundo
+Bing Wu et al., os passos que compõem a metodologia são:
+
 1. Planejar a migração;
 1. Entender a semântica do sistema legado e desenvolver o esquema de dados
    destino;
@@ -348,7 +349,7 @@ Quadro 2 - Quadro comparativo entre as estratégias Big Bang e Trickle
 Migrações de dados são realizadas freqüentemente, porém nem todas obtêm
 êxito. Através de migrações de sucesso, boas práticas foram compiladas, de modo que é
 possível enumerar uma seqüência de passos que ajudam a aumentar a probabilidade de
-sucesso do projeto. Os passos necessários são destacados nas subseções 2.3.2.1 a 2.3.2.5.
+sucesso do projeto. Os passos necessários são destacados nas subseções 2.3.2.1. a 2.3.2.5.
 
 ##### 2.3.2.1. Passo 1
 
@@ -438,15 +439,18 @@ Nessa estratégia são adotados seis passos:
    detectadas; e
 6. Mapeamento dos atributos
    Define regras de transformação entre atributos fonte e atributos alvo.
-   2.3.2.3. Passo 3 - Construção e Design
-   Nesta etapa são desenvolvidas as especificações de mapeamento. Projetos de
-   migração são mais eficientes quando segmentados, pois os dados podem ser auditados,
-   mapeados, testados e transferidos em fases, facilitando o seguimento do cronograma,
-   orçamento e possibilitando a realização de revisões de progresso. Segundo
-   Datanomic Ltd., uma vez que as especificações de mapeamento forem
-   convertidas em código de migração, elas devem ser verificadas individualmente, a fim
-   de identificar possíveis erros.
-   2.3.2.4. Passo 4
+
+##### 2.3.2.3. Passo 3 - Construção e Design
+
+Nesta etapa são desenvolvidas as especificações de mapeamento. Projetos de
+migração são mais eficientes quando segmentados, pois os dados podem ser auditados,
+mapeados, testados e transferidos em fases, facilitando o seguimento do cronograma,
+orçamento e possibilitando a realização de revisões de progresso. Segundo
+Datanomic Ltd., uma vez que as especificações de mapeamento forem
+convertidas em código de migração, elas devem ser verificadas individualmente, a fim
+de identificar possíveis erros.
+
+##### 2.3.2.4. Passo 4
 
 Execução
 
@@ -539,7 +543,6 @@ validações contra regras de negócio.
 Validação da extração É sabido que dados nos sistemas fonte geralmente contêm
 problemas ou escondem erros causados pelas mais variadas razões, desde falhas
 humanas até regras e validações mal testadas ou definidas em sistemas pouco
-13
 
 sofisticados. Regras de validação devem ser utilizadas como primeiro passo para
 tentar identificar e corrigir estes problemas, estendendo o processo em tantas
@@ -586,7 +589,6 @@ dados falhar?
 A equipe está preparada para utilizar alguma funcionalidade de transação de
 rollback existente ou tem-se capacidade de desenhar e construir uma, caso
 não exista?
-14
 
 Como serão administradas as expectativas dos clientes caso isto aconteça?
 Há um plano de mitigação destas questões construído? E
@@ -895,7 +897,6 @@ Fonte: Guia PMBOK.
 Estimativa de custos
 Desenvolve uma aproximação dos custos dos recursos necessários para terminar as
 atividades do projeto.
-27
 
 A Figura 14 mostra Entradas e Saídas para estimativa de custos de projetos.
 
@@ -1250,7 +1251,6 @@ Como citado anteriormente, um dos requisitos da aplicação da metodologia,
 além da migração de dados ser tratada como um projeto à parte, é a existência de um
 responsável pela migração de dados: o líder da migração de dados. A indicação do líder
 deve ocorrer na fase de iniciação do projeto de migração do sistema legado, pois o
-45
 
 processo de migração de dados deve começar no primeiro dia do projeto principal,
 evitando assim uma importante causa de atrasos, trabalho refeito e insucesso, que é
@@ -1318,7 +1318,6 @@ A estratégia da migração;
 As atividades para a migração;
 O seqüenciamento das atividades;
 A equipe;
-47
 
 As necessidades de treinamento;
 As necessidades de contratações;
@@ -1631,7 +1630,6 @@ Quadro 5 Exemplo de uma atividade da Lista de Atividades
 
 Tarefa necessária para determinar as dependências entre atividades e possibilitar
 uma melhor administração do cronograma e priorização de recursos. Caso seja utilizado
-54
 
 software de gerenciamento de projetos para listar as atividades e construir o
 cronograma, esta tarefa é bem apoiada pelo mesmo.
@@ -1669,7 +1667,6 @@ Fonte: Guia PMBOK.
 A estimativa de custos envolve o desenvolvimento de uma aproximação dos
 custos dos recursos necessários para terminar cada atividade do cronograma. Baseia-se
 na estimativa de recursos da atividade. Os custos das atividades do cronograma são
-56
 
 estimados para todos os recursos cujos custos serão lançados no projeto. Isso inclui, mas
 não se limita, a mão-de-obra, materiais, equipamentos, serviços e instalações, além de
@@ -1679,7 +1676,8 @@ custos prováveis dos recursos necessários para terminar a atividade do cronogr
 Deve transformar em valores financeiros as quantidades da estimativa de recursos da
 atividade.
 
-3.1.10. Planejamento da qualidade
+#### 3.1.10. Planejamento da qualidade
+
 O planejamento da qualidade descreve esforços para que os critérios de
 qualidade, definidos no objetivo da migração, sejam atingidos. Estes esforços
 constituem-se em se analisar os critérios de qualidade definidos e incorporá-los às
@@ -1696,32 +1694,27 @@ atividades descritas adiante nesta metodologia devem ser ajustadas para o cumpri
 dos critérios de aceitação e qualidade definidos. O Planejamento da qualidade deve estar
 orientando estes ajustes. As atividades são:
 
-#### 3.4.1. Definição das regras de limpeza dos dados;
+- 3.4.1. Definição das regras de limpeza dos dados;
+- 3.4.2. Construção do mapa de dados;
+- 3.4.9. Teste da migração dos dados;
+- 3.5.4. Tratamento das rejeições de dados;
+- 3.6.1. Testes unitários;
+- 3.6.2. Testes de carga; e
+- 3.6.3. Testes de sistema.
 
-#### 3.4.2. Construção do mapa de dados;
+#### 3.1.11. Definição das comunicações
 
-#### 3.4.9. Teste da migração dos dados;
-
-#### 3.5.4. Tratamento das rejeições de dados;
-
-#### 3.6.1. Testes unitários;
-
-#### 3.6.2. Testes de carga; e
-
-#### 3.6.3. Testes de sistema.
-
-3.1.11. Definição das comunicações
 Determina as necessidades de informação e de comunicação das partes
 interessadas no projeto. Deve-se estabelecer a forma que as partes interessadas tomarão
 ciência do andamento, mudanças e novos requisitos do projeto, entre outros. A forma
 dependerá do porte do projeto, da quantidade de envolvidos, da distribuição geográfica.
 Geralmente, é feita em reuniões periódicas e relatórios de acompanhamento.
 
-3.1.12. Identificação de riscos
+#### 3.1.12. Identificação de riscos
+
 O risco no projeto é um evento ou condição incerta que, se ocorrer, terá um
 efeito positivo ou negativo sobre pelo menos um objetivo do projeto, como tempo,
 custo, escopo ou qualidade. Um risco pode ter uma ou mais causas e, se ocorrer, um ou
-57
 
 mais impactos. O risco do projeto se origina da incerteza que está presente em todos os
 projetos. As pessoas e, por extensão, as organizações tomam atitudes em relação aos
@@ -1759,7 +1752,8 @@ O Quadro 7 apresenta um exemplo de risco negativo para o cronograma, identificad
 estudo de caso deste trabalho, apresentado na Lista de Riscos Identificados.
 Quadro 7 Exemplo de Lista de riscos identificados
 
-3.1.13. Análise qualitativa dos riscos
+#### 3.1.13. Análise qualitativa dos riscos
+
 A análise qualitativa de riscos avalia a prioridade dos riscos identificados usando
 a probabilidade deles ocorrerem, o impacto correspondente nos objetivos do projeto se
 os riscos realmente ocorrerem, além de outros fatores, como o prazo e tolerância a risco
@@ -1778,7 +1772,8 @@ A análise qualitativa viabiliza a identificação dos riscos prioritários que 
 estar sob monitoramento constante. Também permite agrupar os riscos por categoria e
 selecionar os que exigem respostas em curto prazo.
 
-3.1.14. Definir necessidade de compras e aquisições
+#### 3.1.14. Definir necessidade de compras e aquisições
+
 A metodologia identifica quais necessidades da migração podem ser mais bem
 atendidas pela compra ou aquisição de produtos, serviços ou resultados fora da
 organização do projeto e quais necessidades da migração podem ser realizadas pela
@@ -1795,7 +1790,8 @@ Algumas se propõem a fazer o mapeamento entre alguns sistemas de bancos de dado
 mas exigem um trabalho muito grande de configuração, principalmente em relação à
 semântica dos dados.
 
-3.1.15. Definir necessidades de recursos humanos
+#### 3.1.15. Definir necessidades de recursos humanos
+
 Baseando-se na equipe da migração definida e no pessoal disponível, pode surgir
 a necessidade de contratação de pessoal. Além disto, pode-se necessitar de serviços
 especializados ou de consultorias. As contratações de pessoal também se constituem em
@@ -1803,7 +1799,8 @@ riscos que devem ser considerados. O atraso nas contratações pode atrasar o pr
 qualidade das contratações pode comprometer a qualidade do projeto, assim como o
 custo.
 
-3.1.16. Plano de testes e validação
+#### 3.1.16. Plano de testes e validação
+
 É sabido que dados nos sistemas fonte geralmente contêm problemas ou
 escondem erros causados pelas mais variadas causas, desde falhas humanas até regras e
 validações mal testadas ou definidas em sistemas pouco sofisticados. Regras de
@@ -1824,7 +1821,8 @@ o O tratamento dos erros de validação;
 o Os testes unitários; e
 o Os testes de sistema alvo.
 
-3.1.17. Plano de implantação
+#### 3.1.17. Plano de implantação
+
 Seja qual for a estratégia de migração escolhida, de uma só vez ou em ciclos,
 existirá um momento no qual o sistema fonte deixa de operar e o sistema alvo entra em
 operação. Para que esta transição ocorra sem transtornos, é preciso que algumas
@@ -1845,12 +1843,12 @@ o
 Estas atividades devem ocorrer com os sistemas inoperantes para os usuários.
 Geralmente, em um fim-de-semana ou feriado.
 
-3.1.18. Plano de contingência
+#### 3.1.18. Plano de contingência
+
 Um plano de contingência deve prever ações para serem tomadas quando o que
 foi planejado falhar.
 Recomenda-se que em migrações de grande porte tenha-se um ambiente paralelo
 onde a migração possa ser testada. Se a quantidade de dados e o tempo permitirem,
-60
 
 deve-se fazer toda a migração e validação nesse ambiente para, finalmente, fazê-la em
 produção. Este cenário, na maioria dos casos, não é viável. Testam-se apenas amostras
@@ -2049,7 +2047,6 @@ Verificação de integridade referencial para campos candidatos à chave
 estrangeira;
 Verificação de formato de data e hora;
 Verificação de redundâncias;
-65
 
 Verificação de campos que serão decompostos no sistema alvo. Por exemplo, o
 campo endereço do sistema fonte será decomposto em logradouro, número,
@@ -2534,7 +2531,6 @@ há quinze anos, sendo um sistema confiável, estável e fundamental para o neg�
 empresa. Entretanto, contava com pouca documentação disponível.
 O sistema alvo, o CMT (Controle de Mercadorias em Trânsito), além de
 contemplar todas as funcionalidades do sistema legado, deveria contar com novas
-81
 
 funcionalidades, além de ser povoado com cinco anos de informações do Fronteiras
 para começar a operar. Isto daria algo em torno de cento e vinte milhões de registros a
@@ -2583,7 +2579,6 @@ O Plano de Migração é o produto final da etapa de Planejamento. É composto
 pelos produtos das outras atividades de planejamento. Foi sendo construído à medida
 que as reuniões aconteciam e as atividades prosseguiam. O Plano foi alterado diversas
 vezes durante o projeto, o que é esperado. Segundo a metodologia proposta, o Plano
-82
 
 deve manter-se atualizado. Porém, este foi o maior obstáculo desta tarefa. A
 importância da atualização do Plano precisou ser reforçada algumas vezes.
