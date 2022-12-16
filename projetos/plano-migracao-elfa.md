@@ -26,7 +26,7 @@ bons resultados.
 Neste capítulo introdutório, mostra-se o contexto onde este trabalho se insere, a
 motivação, os objetivos do trabalho e a estrutura da dissertação.
 
-### 1.1 Contexto
+### 1.1. Contexto
 
 Migração de dados é um tema bastante abrangente, sendo uma necessidade nos
 negócios de qualquer empresa. Estima-se que as empresas americanas investem entre 5
@@ -74,7 +74,7 @@ conduzidas na tentativa de desenvolver uma maneira segura e barata de guiar a
 migração de um sistema legado como um todo [Ben95, BrS93, Dat07, IBM07, NaG92,
 Til96, Wu+97a, Wu+97b, Wu+05, Wu+99, Wu+97c].
 
-### 1.2 Motivação
+### 1.2. Motivação
 
 Tradicionalmente recebendo a menor das atenções nos projetos de TIC,
 habitualmente colocada no fim do planejamento do projeto, migração de dados pode ser
@@ -2451,7 +2451,7 @@ O índice de qualidade atingido; e
 O aceite do gestor do sistema alvo e de negócio.
 Este documento deve ser anexado ao plano de migração.
 
-### 3.7 Conclusões do capítulo
+### 3.7. Conclusões do capítulo
 
 Neste capítulo, apresentou-se uma metodologia para migração de dados. A
 metodologia fornece os subsídios necessários para a migração de dados de qualquer tipo
