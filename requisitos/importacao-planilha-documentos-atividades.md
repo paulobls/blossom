@@ -14,7 +14,7 @@ Cadastro de novos documentos ou atividades na Lista de Documentos e Atividades (
 
 ### 1.2. Problema
 
-Atualmente, não é possível fazer a operação _Insert_ na tabela da LDLA (MORC_ORM_LISTDA) em lote. Assim, o cadastro de novos DA é feito um por vez e é muito moroso, consequentemente.
+Atualmente, não é possível fazer a operação _Insert_ na tabela da LDLA (MORC_ORM_LISTDA) em lote. Assim, o cadastro de novos DA é feito um por vez e é muito moroso.
 
 - Observação: É possível cadastrar mais de um documento por vez, mas a funcionalidade não atende muito bem a demanda pois:
   - São criados DA do mesmo tipo (e não possível alterar o tipo depois da criação).
@@ -61,12 +61,16 @@ graph TB
 
 ### 2.1. Lista de Requisitos
 
-- [ ] Cadastrar novos DA a partir de uma planilha
-- [ ] Gerar numeração (código) de cada DA automaticamente
-  - OS-Sigla da Disciplina-Tipo-Contagem
-    - BL1059-0001-DC-LDO-2000
-- [ ] Gerar log de importação
-  - Deve conter descrição do erro e em quais linhas da planilha eles ocorrem
+1. Cadastrar (insert) de novos DA a partir de uma planilha "modelo"
+1. Gerar numeração (código) de cada DA automaticamente
+
+   - OS-Sigla da Disciplina-Tipo-Contagem (BL1059-0001-DC-LDO-2000)
+
+1. Gerar log de importação
+
+   - Deve conter descrição do erro e em quais linhas da planilha eles ocorrem
+
+1. Criar constraints de FKs no banco de dados (seguindo a modelagem abaixo)
 
 ## 3. Dados
 
@@ -78,6 +82,22 @@ erDiagram
     MORC_OS ||--o{ MORC_ORM : ""
     MORC_ORM ||--o{ MORC_ORM_ESPDISC : ""
     MORC_ORM ||--o{ MORC_ORM_LISTDA : ""
+
+    MORC_OS {
+      guid CLIENTE_ID FK "Referencia: CLIENTE"
+    }
+
+    MORC_ORM {
+      guid OS_ID FK "Referencia: MORC_OS"
+    }
+
+    MORC_ORM_ESPDISC {
+      guid ORM_ID FK "Referencia: MORC_ORM"
+    }
+
+    MORC_ORM_LISTDA {
+      guid ORM_ID FK "Referencia: MORC_ORM"
+    }
 ```
 
 > MORC_OS | Ordem de Serviço
@@ -98,9 +118,9 @@ Tipo          Texto, Número, Data, Arquivo, Seleção única, Seleção Múltip
 Restrições    Formato de Email, Exatamente 6 caracteres...
 -->
 
-| Campo                  | Tipo          | Restrições           | Valor default | Not Null |
+| Campo                  | Tipo          | Restrições           | Valor Default | Not Null |
 | ---------------------- | ------------- | -------------------- | ------------- | -------- |
-| documento_ou_atividade | Seleção única | Documento, atividade |               | Sim      |
+| documento_ou_atividade | Seleção única | Documento, Atividade |               | Sim      |
 
 ## 4. 5 Referências
 
