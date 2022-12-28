@@ -294,60 +294,6 @@ Se a Definição de Pronto para um incremento faz parte dos padrões da organiza
 
 Os _Developers_ devem estar em conformidade com a Definição de Pronto. Se houver vários _Scrum Teams_ trabalhando juntos em um produto, eles devem definir e cumprir mutuamente a mesma Definição de Pronto.
 
-## Nota Final
-
-_Scrum_ é gratuito e oferecido neste Guia. O framework _Scrum_ , conforme descrito aqui, é
-imutável. Embora a implementação de apenas partes do _Scrum_ seja possível, o resultado não
-é _Scrum_. _Scrum_ existe apenas em sua totalidade e funciona bem como um contêiner para outras técnicas, metodologias e práticas.
-
-### Reconhecimentos
-
-#### Pessoas
-
-Das milhares de pessoas que contribuíram para o _Scrum_ , devemos destacar aquelas que foram fundamentais no início: Jeff Sutherland trabalhou com Jeff McKenna e John Scumniotales, e Ken Schwaber trabalhou com Mike Smith e Chris Martin, e todos eles trabalharam juntos. Muitos outros contribuíram nos anos seguintes e sem sua ajuda o _Scrum_ não seria refinado como é hoje.
-
-#### A História do Guia Scrum
-
-Ken Schwaber e Jeff Sutherland primeiramente co-apresentaram o _Scrum_ na Conferência OOPSLA em 1995. Essencialmente, documentou o aprendizado que Ken e Jeff obtiveram nos poucos anos anteriores e tornou pública a primeira definição formal de _Scrum_.
-
-O Guia do Scrum documenta o _Scrum_ conforme desenvolvido, evoluído e sustentado por mais de 30 anos por Jeff Sutherland e Ken Schwaber. Outras fontes fornecem padrões, processos e percepções que complementam o framework _Scrum_. Estes podem aumentar a produtividade, valor, criatividade e satisfação com os resultados.
-
-A história completa do _Scrum_ é descrita em outros lugares. Para homenagear os primeiros lugares onde foi testado e comprovado, reconhecemos Individual Inc., Newspage, Fidelity Investments e IDX (agora GE Medical).
-
-#### Tradução
-
-Este guia foi traduzido da versão original em inglês, fornecida pelas pessoas reconhecidas acima. Os colaboradores desta tradução incluem Fábio Cruz, Eduardo Rodrigues Sucena e Rodrigo Paulo Camargo.
-
-Mudanças entre o Guia Scrum 2017 e o Guia Scrum 2020
-
-Ainda Menos Prescritivo
-
-Ao longo dos anos, o Guia Scrum começou a ficar um pouco mais prescritivo. A versão 2020 buscou trazer o Scrum de volta a ser um framework minimamente suficiente removendo ou suavizando a linguagem prescritiva, por exemplo: removidas as questões da Daily Scrum, linguagem suavizada em relação a atributos do PBI, linguagem suavizada em relação a itens de retrospectiva no Sprint Backlog, diminuição da seção referente ao Cancelamento da Sprint, e mais.
-
-Um Time, focado em Um Produto
-
-O objetivo era eliminar o conceito de um time separado dentro do time o que tem guiado para comportamentos de “proxy” ou de “nós e eles” entre o PO e o Time de Desenvolvimento. Há agora apenas um Scrum Team focado no mesmo objetivo, com três responsabilidades: PO, SM e Developers.
-
-Introdução da Meta do Produto
-
-O Guia Scrum 2020 introduz o conceito de Meta do Produto para fornecer foco para o Scrum Team em direção a um objetivo mais valioso. Cada sprint deve trazer o produto mais próximo da Meta geral do Produto.
-
-Uma casa para a Meta da Sprint, Definicao de Pronto, e Meta do Produto
-
-Os Guias Scrum anteriores descreviam a Meta da Sprint e a Definição de Pronto sem realmente lhes dar uma identidade. Eles não eram bem um artefato mas eram de alguma forma anexados a artefatos. Com a adição da Meta do Produto, a versão 2020 fornece mais clareza a isso. Cada um dos três artefatos agora contém “comprometimentos” a eles. Para o Product Backlog é a Meta do Produto, o Sprint Backlog tem a Meta da Sprint, e o Incremento possui a Definição de Pronto (agora sem as aspas). Eles existem para trazer transparência e foco em direção ao progresso de cada artefato.
-
-Auto-Gerenciáveis acima de Auto-Organizados
-
-Os Guias Scrum anteriores se referiam ao Time de Desenvolvimento como Auto-Organizados, escolhendo quem e como fariam o trabalho. Com mais foco no Scrum Team, a versão 2020 enfatiza um Scrum Team auto-gerenciado, escolhendo quem, como e no que trabalhar.
-
-Os Tres Topicos da Sprint Planning
-
-Em adição aos tópicos da Sprint Planning “O que” e “Como”, o Guia Scrum 2020 coloca ênfase a um terceiro tópico, “Por que”, referente a Meta da Sprint.
-
-Simplificação Geral de Linguagem para uma Audiência mais Ampla
-
-O Guia Scrum 2020 coloca ênfase na eliminação de informações redundantes e complexas assim como removendo qualquer inferência remanescente ao trabalho de IT (por exemplo, testes, sistemas, design, requerimento, etc). O Guia Scrum agora possui menos do que 13 páginas.
-
 ```
 © 2020 Ken Schwaber and Jeff Sutherland
 ```
