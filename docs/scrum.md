@@ -113,7 +113,6 @@ O _Scrum Master_ serve ao _Scrum Team_ de várias maneiras, incluindo:
 
 - Treinar os membros do time em autogerenciamento e cross-funcionalidade
 - Ajudar o _Scrum Team_ a se concentrar na criação de incrementos de alto valor que atendem à Definição de Pronto
-
 - Provocando a remoção de impedimentos ao progresso do Scrum Team
 - Garantir que todos os eventos Scrum ocorram e sejam positivos, produtivos e mantidos dentro do Timebox
 
