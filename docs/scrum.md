@@ -90,12 +90,10 @@ O _Product Owner_ é responsável por maximizar o valor do produto resultante do
 
 O _Product Owner_ também é responsável pelo gerenciamento eficaz do _Product Backlog_, que inclui:
 
-```
 - Desenvolver e comunicar explicitamente a meta do produto
 - Criar e comunicar claramente os itens do Product Backlog
 - Ordenar os itens do Product Backlog
 - Garantir que o Product Backlog seja transparente, visível e compreensível
-```
 
 O _Product Owner_ pode fazer o trabalho acima ou pode delegar a responsabilidade a outros. Independentemente disso, o _Product Owner_ ainda é o responsável.
 
